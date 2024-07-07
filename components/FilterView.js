@@ -25,7 +25,6 @@ export const CommonFilterRow = ({ data, filters, setFilters, filterName }) => {
   const theme = getTheme();
 
   const onSelect = (item) => {
-    console.log(item);
     setFilters({ ...filters, [filterName]: item });
   };
 
@@ -66,7 +65,6 @@ export const ColorFilters = ({ data, filters, setFilters, filterName }) => {
   const theme = getTheme();
 
   const onSelect = (item) => {
-    console.log(item);
     setFilters({ ...filters, [filterName]: item });
   };
 

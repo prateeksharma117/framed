@@ -4,13 +4,14 @@
     "slug": "framed",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
+    "icon": "./assets/images/bgremovelogo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "",
+      "image": "./assets/images/bgremovelogo.png",
+      "className": " w-8 h-8",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1c1c27"
     },
     "ios": {
       "bundleIdentifier": "com.test.framed"
@@ -18,14 +19,14 @@
     "android": {
       "package": "com.test.framed",
       "adaptiveIcon": {
-        "foregroundImage": "",
+        "foregroundImage": "./assets/images/appicon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": ""
+      "favicon": "./assets/images/appicon.png"
     },
     "plugins": ["expo-router"],
     "experiments": {
