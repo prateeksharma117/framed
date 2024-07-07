@@ -372,7 +372,7 @@ const Home = () => {
             position: "absolute",
             bottom: 20,
             right: 20,
-            backgroundColor: theme.colors.colors.primary,
+            backgroundColor: theme.colors.colors.background,
             borderRadius: 50,
             width: 50,
             height: 50,
@@ -381,7 +381,11 @@ const Home = () => {
           }}
           onPress={handleScrollUp}
         >
-          <AntDesign name="arrowup" size={24} color="white" />
+          <AntDesign
+            name="arrowup"
+            size={24}
+            color={theme.colors.colors.title}
+          />
         </Pressable>
 
         <FiltersModel
