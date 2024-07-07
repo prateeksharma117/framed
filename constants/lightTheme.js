@@ -1,0 +1,38 @@
+export const lightTheme = {
+  mode: {
+    type: "Light",
+  },
+  colors: {
+    primary: "#6750a5",
+    white: "#fff",
+    black: "#000",
+    secondary: "#cdc2dc",
+    tertiary: "#7d5261",
+    error: "#ff4747",
+    success: "#40dc1c",
+    title: "#000",
+    gray: "#ececec",
+    gradientRGBA1: "rgba(255,255,255,0)",
+    gradientRGBA2: "rgba(255,255,255,0.5)",
+    gradientColor1: "#fff",
+    gradientColor2: "#fff",
+    background: "#fafafe",
+    button: "#f59450",
+    buttonText: "#fff",
+    inputs: "#f2f2f2",
+    border: "#ebebeb",
+    neutral: (opacity) => `rgba(10,10,10,${opacity})`,
+  },
+  fontWeights: {
+    medium: "500",
+    semibold: "600",
+    bold: "700",
+  },
+  radius: {
+    xs: 10,
+    sm: 12,
+    md: 14,
+    lg: 16,
+    xl: 18,
+  },
+};
