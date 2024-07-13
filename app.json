@@ -13,22 +13,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#1c1c27"
     },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.test.framed"
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
     },
     "android": {
-      "package": "com.test.framed",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/appicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "userInterfaceStyle": "automatic",
+      "package": "com.pro.framed"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/appicon.png"
     },
-    "plugins": ["expo-router", "expo-build-properties"],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },

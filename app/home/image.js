@@ -166,7 +166,7 @@ const ImagePopUp = () => {
   };
 
   return (
-    <Animated.View
+    <View
       entering={FadeInLeft.springify().damping(10).mass(1).stiffness(130)}
       style={{
         flex: 1,
@@ -181,7 +181,7 @@ const ImagePopUp = () => {
       intensity={60}
     >
       <Animated.View
-        entering={FadeInUp.springify().damping(14).delay(130)}
+        entering={FadeInLeft.springify().damping(10).mass(1).stiffness(130)}
         style={getSize()}
       >
         <View
@@ -308,7 +308,7 @@ const ImagePopUp = () => {
           origin={{ x: -10, y: 0 }}
         />
       )}
-    </Animated.View>
+    </View>
   );
 };
 
